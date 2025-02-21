@@ -17,6 +17,9 @@
       "biome check --files-ignore-unknown=true"
     ]
   },
+  "engines": {
+    "node": "18.x"
+  },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   },
